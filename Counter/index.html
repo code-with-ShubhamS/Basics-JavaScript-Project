@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .border{
+        padding: 12px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
+    }
+    button:hover{
+        cursor: pointer;
+       
+    }
+    button{
+        padding: 10px 15px;
+        background: #0ff;
+        border-radius: 4px;
+    
+    }
+    .flex{
+        display: flex;
+    }
+    .number{
+        height: 19px;
+    width: 31px;
+    }
+    .incr-Decr{
+       gap: 8px;
+    }
+</style>
+<body>
+    <div class="main border">
+        <h3 class="num">0</h3>
+        <div class="btn">
+            <button class="decrement">-</button>
+            <button class="increment">+</button>
+        </div>
+        <div class="incr-Decr flex" style="align-items: center;">
+            <p>Increment/Decrement</p>
+            <input type="number" class="number" max="10" min="0">
+        </div>
+        <button class="reset">Reset</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
