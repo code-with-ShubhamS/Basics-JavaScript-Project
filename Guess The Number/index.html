@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Tje Number</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.restart-btn {
+  background-color: #28a745; 
+  color: white; 
+  border: none; 
+  padding: 8px 15px; 
+  font-size: 16px; 
+  cursor: pointer;
+  border-radius: 8px; 
+  transition: background-color 0.3s ease;
+}
+
+
+.restart-btn:hover {
+  background-color: #218838; 
+}
+
+</style>
+<body>
+    <h3>Enter the Guess Between 0 to 100</h3>
+    <input type="number" name="" id="inputBox" max="100">
+    <div style="margin: 1rem;">
+        <button class="submit">Submit</button>
+        <button class="start restart-btn">Start Game</button>
+    </div>
+
+    <h3 class="tittle"></h3>
+    <p class="showUserNum"></p>
+    </body>
+    <script src="script.js"></script>
+</html>
